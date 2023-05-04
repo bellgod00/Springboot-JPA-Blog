@@ -1,0 +1,37 @@
+Day 1
+1. VSCode 설치
+2. Extension 설치
+    - java
+    - spring
+    - lombok
+3.debug console 세팅
+    - 파일 > 기본설정 > 설정 
+    - 검색어 'console'
+    - "java.debug.settings.console": "internalConsole"    
+4.yml 세팅
+    - application.properties > application.yml로 변경
+    - 다음과 같이 Setting
+spring:
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  level:
+    '[example.ex1.demo]': DEBUG
+
+
+Day 2
+1. format on settings
+    - "editor.formatOnSave": true
+    - "editor.defaultFormatter": "redhat.java"
+2. keymap 설치
+    - JetBrains IDE Keymap
+3. Material Icon Theme 설치(icon 모양변경)
+4. Jetbrains Fleet Theme 설치(테모)
+5. "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+
+Day 3
+1. 설정에서 static검색
+    favoriteStaticMembers에 자주쓰는 항목 추가.
+    
