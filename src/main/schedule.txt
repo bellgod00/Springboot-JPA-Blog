@@ -35,3 +35,5 @@ Day 3
 1. 설정에서 static검색
     favoriteStaticMembers에 자주쓰는 항목 추가.
     
+1. jsp설정 중 의존성 문제 
+    implementation 'javax.servlet:jstl:1.2'
