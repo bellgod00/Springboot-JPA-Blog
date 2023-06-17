@@ -17,14 +17,19 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul&useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
     username: cos
     password: cos1234
 
   jpa:
     open-in-view: true
     hibernate:
+<<<<<<< HEAD
       ddl-auto: create
+=======
+#      ddl-auto: create
+      ddl-auto: update
+>>>>>>> 88d6f3f49ca889443c0a6599b70fe0febc34de8f
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       use-new-id-generator-mappings: false
