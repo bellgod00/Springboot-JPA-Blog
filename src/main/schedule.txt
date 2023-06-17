@@ -27,7 +27,7 @@ Day 2
     - "editor.defaultFormatter": "redhat.java"
 2. keymap 설치
     - JetBrains IDE Keymap
-3. Material Icon Theme 설치(icon 모양변경)
+3. Material Icon Theem 설치(icon 모양변경)
 4. Jetbrains Fleet Theme 설치(테모)
 5. "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
 

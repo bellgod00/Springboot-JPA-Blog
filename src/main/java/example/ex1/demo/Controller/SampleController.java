@@ -18,7 +18,7 @@ public class SampleController {
         log.error("error");
         log.warn("메시지 출력 레벨 확인.");
         model.addAttribute("data", "This is data!!");
-        return "sample Test";
+        return "지은아 안녕 나는 컴퓨터야~~~~!!!!";
         // return new ResponseEntity<>(HttpStatus.CREATED);
     }
 }

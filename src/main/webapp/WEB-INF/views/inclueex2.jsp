@@ -3,11 +3,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Spring Boot Application</title></title>
+        <title>Insert title here</title>
+
     </head>
     <body>
-        <h1>Home Page</h1> <br>
-        <%@ include file = "test.jsp" %>
-        <%@ include file = "inclueex2.jsp" %>
+        <%@ include file = "inclueex.jsp" %>
+        <% 
+            out.println(str + "<br/>"); 
+            str = "바꿀 수도 있다!";
+            out.println(str + "<br/>"); 
+        %>
     </body>
 </html>
