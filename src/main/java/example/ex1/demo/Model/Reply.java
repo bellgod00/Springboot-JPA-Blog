@@ -1,11 +1,7 @@
 package example.ex1.demo.Model;
 
 import java.sql.Timestamp;
-<<<<<<< HEAD
 
-public class Reply {
-
-=======
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,10 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import lombok.Builder;
 import org.hibernate.annotations.CreationTimestamp;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -45,5 +41,4 @@ public class Reply {
 
     @CreationTimestamp
     private Timestamp createDate;
->>>>>>> 88d6f3f49ca889443c0a6599b70fe0febc34de8f
 }
